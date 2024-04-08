@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://use.typekit.net/hpj5lpt.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Photography Art Exhibition</title>
+</head>
+<body>
+<div class="content">
+    <div class="showtitle">
+        <h1>A Letter to Life</h1>
+        <hr>
+        <h3>with whom I am so in love, I fear she might notice me.</h3>
+        <hr>
+        <h4>Photography Exhibition by Aleksander Allen</h4>
+    </div>
+</div>
+
+<div class="poster">
+    <img src="{{ url_for('static', filename='banner.jpg') }}" alt="Exhibition Poster">
+</div>
+
+<div class="content">
+    <div class = "rsvp">
+        <p>Capturing life's beauty in art demands we put ourselves consciously into the passenger seat, sacrificing agency and freedom
+        to live. </p>
+        <p>Yet this is precisely how we learn the beauty of life. </p>
+    </div>
+</div>
+
+<div class="content">
+
+    <div class="info">
+
+        <div class="dates">
+
+            <h2>Hours of Operation:</h2>
+            <div></div>
+
+            <p>Thursday - Sunday</p>
+            <div></div>
+            <h4>Thur: 1 PM - 6 PM</h4>
+            <p></p>
+            <h4>Fri - Sun: 1 PM - 10 PM</h4>
+            <p></p>
+            <hr>
+            <h2>Events:</h2>
+            <div></div>
+
+            <h4>Opening Show:  May 3rd, 6:00 - 10:00 PM</h4>
+            <p></p>
+
+            <h4>Closing Show: May 25, 6:00 - 10:00 PM </h4>
+
+
+
+            <h4>- Free Entry</h4>
+            <hr>
+            <div class="socialmedia">
+                <div class="socialmedia-item">
+                    <p>Instagram</p>
+                    <a href="https://www.instagram.com/svetimfm/">@svetimFM</a>
+                </div>
+                <div class="socialmedia-item">
+                    <p>Threads</p>
+                    <a href="https://www.threads.net/@boxesblue">@boxesblue</a>
+                </div>
+                <div class="socialmedia-item">
+                    <p>Website</p>
+                    <a href="https://www.svetim.fm/">www.svetim.fm</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="location_row">
+            <h2>Location:</h2>
+
+
+
+            <iframe class="gmap"
+
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJB-vPwE0VkFQRrUDjPLP803M&key=AIzaSyBtRSON9Ombn3VoRhLa-oogMpLuAuIlHKk">
+            </iframe>
+            <div class="map-links">
+                <a href="#" id="appleMapLink">Apple Maps</a>
+                <a href="#" id="googleMapLink">Google Maps</a>
+            </div>
+            <script src="{{ url_for('static', filename='js/map-links.js') }}"></script>
+
+            <p>
+                Slide Art Gallery,
+                2307 1st Ave,
+                WA 98121
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="bottom-bar">
+        <p>Copyright 2024 Aleksander Allen</p>
+        <img style="max-height: 50px" src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+    </div>
+</div>
+
+
+</body>
+
+</html>
