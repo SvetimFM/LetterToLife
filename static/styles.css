@@ -233,8 +233,7 @@ body::before {
     background-color: rgba(51, 51, 51, 0.8);
     color: #fff;
     padding: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+
 }
 
 .socialmedia-item {
@@ -256,13 +255,12 @@ body::before {
     flex-direction: column;
     font-family: "miller-display", serif;
     border-radius: 5px;
-    max-width: 700px;
+    max-width: 300px;
 
     background-color: rgba(51, 51, 51, 0.8);
     color: #fff;
     padding: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+
 
 }
 
@@ -295,6 +293,8 @@ body::before {
         display: flex;
         justify-content: center;
         gap: 30px;
+        margin-top: 30px;
+        margin-bottom: 15px;
     }
     .gmap{
         height: 510px;
