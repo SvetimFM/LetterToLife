@@ -84,7 +84,7 @@ body::before {
 .info {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 @media (min-width: 768px) {
@@ -129,7 +129,7 @@ body::before {
 
 .gmap {
     width: 100%;
-    height: 350px;
+    height: 450px;
     display: flex;
     flex-grow: 1; /* Add this line */
     border-radius: 10px;
@@ -204,7 +204,7 @@ body::before {
     align-items: center;
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
 
     font-family: "miller-display", serif;
     z-index:5;
@@ -225,24 +225,57 @@ body::before {
 
 .socialmedia {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     font-family: "miller-display", serif;
     border-radius: 5px;
-    max-width: 400px;
-    background-color: rgba(51, 51, 51, 0.35);
+    max-width: 300px;
+    background-color: rgba(51, 51, 51, 0.8);
     color: #fff;
     padding: 15px;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .socialmedia-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: -10px;
+    gap: 10px;
 }
 
 .socialmedia-item:last-child {
     margin-bottom: 0;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-between;
+
+    flex-direction: column;
+    font-family: "miller-display", serif;
+    border-radius: 5px;
+    max-width: 700px;
+
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 10px;
+
+    max-width: 1100px;
 }
 
 @media (min-width: 768px) {
@@ -254,4 +287,31 @@ body::before {
     .socialmedia-item {
         flex-basis: 100%;
     }
+
+    .info-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .gmap{
+        height: 510px;
+    }
+    .partners{
+        min-height:180px;
+    }
+}
+
+a:visited{
+    color: #34d3e7;
+}
+
+a:focus{
+    color: #03ffe8
+}
+
+a{
+    color: #ff69fc
 }
