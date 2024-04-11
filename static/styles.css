@@ -267,6 +267,7 @@ body::before {
 
 
 
+
 .info-container {
     display: flex;
     justify-content: center;
@@ -274,7 +275,6 @@ body::before {
 
     gap: 10px;
 
-    max-width: 1100px;
 }
 
 @media (min-width: 768px) {
@@ -301,7 +301,7 @@ body::before {
         height: 350px;
     }
     .partners{
-        min-height:250px;
+        min-height:150px;
     }
     .dates{
         align-content: center;
@@ -312,14 +312,14 @@ body::before {
         flex-basis: 100%;
         display: flex;
         justify-content: center;
-        gap: 35px;
-        background-color: rgba(70, 70, 70, 0.1);
+        gap: 22%;
+        background-color: rgba(51, 51, 51, 0.7);
         color: rgba(230, 230, 230, 1.0);
         border-radius: 10px;
         padding: 15px;
 
-        margin-left: 7.5%;
-        margin-right: 7.5%
+        padding-left: 6.5%;
+        padding-right: 6.5%;
     }
     .line{
         flex-direction: row;
