@@ -85,6 +85,7 @@ body::before {
     display: flex;
     flex-direction: column;
     gap: 10px;
+
 }
 
 @media (min-width: 768px) {
@@ -129,7 +130,7 @@ body::before {
 
 .gmap {
     width: 100%;
-    height: 450px;
+    height: 250px;
     display: flex;
     flex-grow: 1; /* Add this line */
     border-radius: 10px;
@@ -230,7 +231,7 @@ body::before {
     font-family: "miller-display", serif;
     border-radius: 5px;
     max-width: 300px;
-    background-color: rgba(51, 51, 51, 0.8);
+    background-color: rgba(51, 51, 51, 0.7);
     color: #fff;
     padding: 15px;
 
@@ -257,7 +258,7 @@ body::before {
     border-radius: 5px;
     max-width: 300px;
 
-    background-color: rgba(51, 51, 51, 0.8);
+    background-color: rgba(51, 51, 51, 0.7);
     color: #fff;
     padding: 15px;
 
@@ -297,10 +298,34 @@ body::before {
         margin-bottom: 15px;
     }
     .gmap{
-        height: 510px;
+        height: 350px;
     }
     .partners{
-        min-height:180px;
+        min-height:250px;
+    }
+    .dates{
+        align-content: center;
+    }
+    .dates-info{
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+        background-color: rgba(70, 70, 70, 0.1);
+        color: rgba(230, 230, 230, 1.0);
+        border-radius: 10px;
+        padding: 15px;
+
+        margin-left: 7.5%;
+        margin-right: 7.5%
+    }
+    .line{
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        justify-content: center;
     }
 }
 
