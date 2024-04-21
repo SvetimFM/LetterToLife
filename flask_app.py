@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 
 app = Flask(__name__)
-app.config['GOOGLEMAPS_KEY'] = "AIzaSyBtRSON9Ombn3VoRhLa-oogMpLuAuIlHKk"
+app.config['GOOGLEMAPS_KEY'] = "REMOVED"
 @app.route('/')
 def home():
     return render_template('home.html')
